@@ -1,0 +1,40 @@
+@height-search-components: 25px;
+@border-radius-search-components: 4px;
+
+.main-container {
+	display: flex;
+}
+
+.search-container {
+    display: flex;
+    align-items: flex-start;
+    width: 33%;
+    margin: 10px;
+}
+
+.search-name-value, .search-repo-value{
+	width: 90%;
+	height: @height-search-components;
+	border-radius: @border-radius-search-components;
+}
+
+.search-btn {
+    background-color: #adec90;
+	width: 92%;
+    height: @height-search-components;
+    border-radius: @border-radius-search-components;
+}
+
+.github-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.github-profile-img {
+    width: 128px;
+    height: 128px;
+}
+
+.profile-hide-img {
+    display: none;
+}
